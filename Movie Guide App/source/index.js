@@ -1,11 +1,5 @@
-import {  config } from "dotenv";
-
-config();
-
-
 const getData =  async () => {
-    let envVar = process.env.API_KEY;
-
+    console.log(import.meta.env.VITE_API_KEY);
 }   
 
 getData();
